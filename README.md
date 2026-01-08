@@ -1,2 +1,2 @@
-# COMP3010-A2-Sam-H
-This is the repository for the second assignment for my comp 3010 unit
+<img width="675" height="398" alt="image" src="https://github.com/user-attachments/assets/8a5c9cf6-d10c-41e5-bdad-f68a1678b3f0" />
+
