@@ -9,7 +9,7 @@
 https://github.com/SamHoneyb/COMP3010-A2-Sam-H
 
 # Video
-https://github.com/SamHoneyb/COMP3010-A2-Sam-H
+https://youtu.be/YIy__v4Mh_k?si=6OtJS8Bj11mJE-b5
 
 # 1. Introduction
 Security operations centres (SOCs) are vital in the modern world of cyber security. They are a cyber security team which monitors an organisations IT infrastructure 24/7 with the aim of finding, analysing and responding to potential security incidents as they happen. [1] This helps to improve companies’ response time to cyber events and prevent future attacks as the monitoring can find the weak points in the infrastructure that cyber criminals are trying to exploit.
