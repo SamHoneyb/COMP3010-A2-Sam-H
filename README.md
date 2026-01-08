@@ -86,6 +86,25 @@ At 14:01:46 on the 10/08/2018 an incident occurred where an S3 bucket was put to
 From a further improvement point of view, one of the key takeaways from this incident is that MFA should be implemented on all networks. It is possible that the breach occurred because MFA wasn’t present so by including it you can help to prevent things like this happening as even if there are a credential leak people won’t be able to access the account without authenticating it’s them, upon receiving an unusual MFA code users can then report the incident to the SOC. [11] On top of this principle of least privilege would also be a helpful thing to implement as it will reduce the amount of people which can make changes to the S3 bucket if they don’t need to and helps minimise damage in the even of a credential leak. [12] 
 Finally, in a SOC context, this event shows the importance of having strict detection rules to help speed up response times, the bucket was set to public for almost an hour so writing rules to detect changes to bucket permissions can help to reduce the time that mistakes like this are allowed to be abused. Also looking at the cryptojacking situation rules to detect common features of these attacks would be helpful such a detecting high CPU usage and spikes in DNS activity. Overall, with some system changes and increased alerts the network security and SOCs response can be greatly improved.   
 
+# References
+[1] 	Mark Scapicchio et al, “What is a security operations center (SOC)?,” IBM, N.d.. [Online]. Available: https://www.ibm.com/think/topics/security-operations-center. [Accessed 23 12 2025].
+[2] 	Paloalto Networkd, “Security Operations Center (SOC) Roles and Responsibilities,” Paloalto Networkd, N.d.. [Online]. Available: https://www.paloaltonetworks.co.uk/cyberpedia/soc-roles-and-responsibilities. [Accessed 23 12 2025].
+[3] 	Connect Wise, “SOC Analyst Tiers 1, 2, and 3 - what's the difference?,” Connect Wise, N.d.. [Online]. Available: https://www.connectwise.com/cybersecurity-center/glossary/tier-1-vs-tier-2-vs-tier-3-cybersecurity. [Accessed 23 12 2025].
+[4] 	Amazon web services, “Blocking public access to your Amazon S3 storage,” Amazon, N.d.. [Online]. Available: https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html. [Accessed 23 12 2025].
+[5] 	Riversafe, “How Splunk helps organisations improve cybersecurity observability,” Riversafe, N.d.. [Online]. Available: https://riversafe.co.uk/resources/how-splunk-helps-organisations-improve-cybersecurity-observability/. [Accessed 27 12 2025].
+[6] 	J. Dominguez, “Laying the Foundation for a Resilient Modern SOC,” Splunk, 7 12 2023. [Online]. Available: https://www.splunk.com/en_us/blog/security/laying-the-foundation-for-a-resilient-modern-soc.html. [Accessed 27 12 2025].
+[7] 	J. Bull, “Implementing risk-based alerting,” 1 12 2025. [Online]. Available: https://lantern.splunk.com/Security_Use_Cases/Threat_Investigation/Implementing_risk-based_alerting. [Accessed 27 12 2025].
+[8] 	Splunk, “Welcome to Splunk Enterprise 10.0,” Splunk, 14 11 2025. [Online]. Available: https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.0/whats-new/welcome-to-splunk-enterprise-10.0. [Accessed 27 12 2025].
+[9] 	B. Krebs, “Who and What Is Coinhive?,” Krebsonsecurity, 26 4 2018. [Online]. Available: https://krebsonsecurity.com/2018/03/who-and-what-is-coinhive/. [Accessed 28 12 2025].
+[10] 	I. S. Josh Schneider, “What is cryptojacking?,” IBM, N.d.. [Online]. Available: https://www.ibm.com/think/topics/cryptojacking. [Accessed 29 12 2025].
+[11] 	National Cyber Secuity Center, “Multi-factor authentication for your corporate online services,” National Cyber Secuity Center, N.d.. [Online]. Available: https://www.ncsc.gov.uk/collection/mfa-for-your-corporate-online-services/why-mfa-matters. [Accessed 29 12 2025].
+[12] 	N. Vaideeswaran, “Intro to The Principle of Least Privilege (POLP),” CrowdStrike, 8 1 2025. [Online]. Available: https://www.crowdstrike.com/en-gb/cybersecurity-101/identity-protection/principle-of-least-privilege-polp/. [Accessed 29 12 2025].
+
+# Appendix 
+## Student Declaration of AI Tool use in this Assessment
+
+<img width="544" height="759" alt="image" src="https://github.com/user-attachments/assets/e68ed12b-a825-4011-8e00-982e3cccfd58" />
+
 
 
 
