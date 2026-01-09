@@ -31,7 +31,7 @@ The primary tool used within the SOC is Splunk, this is due to its centralised n
 The most recent version of Splunk will be deployed (10.0.2) as a standalone instance for this investigation as it offers more features than previous versions and improves upon security at the time of installation [8]. The instillation process was successful and tested prior to indexing the data set as can be seen in the bellow screenshots.
 <img width="994" height="559" alt="image" src="https://github.com/user-attachments/assets/8c501934-27b2-4578-9c6e-31bfdaa9bebf" />
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/03018d68-4919-404e-b2dd-abc17b1ee2f9" />
-These screenshots show the instilation of splunk.
+These screenshots show the installation of splunk.
 <img width="951" height="532" alt="image" src="https://github.com/user-attachments/assets/e0fb9a0f-5cfa-431e-b709-638bb85054f3" />
 This screen shot shows navigating to the Splunk folder and starting Splunk
 <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/b5f9dc4b-849d-4964-9f7b-560d7d9c32cf" />
